@@ -1,6 +1,7 @@
 ---
-title: "index.html"
+title: "about-us.html"
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,10 @@ title: "index.html"
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Utouch - HomePage</title>
 
-	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
-	<link rel="stylesheet" type="text/css" href="css/blocks.css">
-	<link rel="stylesheet" type="text/css" href="css/widgets.css">
-	<link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.url | remove:page.title }}/css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.url | remove:page.title }}/css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.url | remove:page.title }}/css/widgets.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.url | remove:page.title }}/css/ion.rangeSlider.css">
 
 
 	<!--External fonts-->
@@ -20,13 +21,13 @@ title: "index.html"
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
 
 	<!-- Styles for Plugins -->
-	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.url | remove:page.title }}/css/swiper.min.css">
 
 	<!--Styles for RTL-->
 
 	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
 </head>
-
+<!-- <script> alert('{{ page.url | remove:page.title }}') </script> -->
 
 <body class="crumina-grid">
 
@@ -62,7 +63,7 @@ title: "index.html"
 
 			<div class="site-logo">
 				<a href="index.html" class="full-block"></a>
-				<img src="img/logo.png" alt="Utouch">
+				<img src="{{ site.url | remove:page.title }}/img/logo.png" alt="Utouch">
 				<div class="logo-text">
 					<div class="logo-title">Utouch</div>
 					<div class="logo-sub-title">app startup</div>
@@ -170,11 +171,11 @@ title: "index.html"
 									<div class="product-item">
 										<div class="product-item-thumb">
 											<div class="square-colored bg-product-blue"></div>
-											<img src="img/product-item1.jpg" alt="product">
+											<img src="{{ site.url | remove:page.title }}img/product-item1.jpg" alt="product">
 										</div>
 										<div class="product-item-content">
 											<h6 class="title">Duis autem dolor in hendrerit in vulputate</h6>
-											<a href="05_case_details_ver_01.html" class="more-arrow">
+											<a href="{{ site.url | remove:page.title }}05_case_details_ver_01.html" class="more-arrow">
 												<span>View Case</span>
 												<div class="btn-next">
 													<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
@@ -193,11 +194,11 @@ title: "index.html"
 									<div class="product-item">
 										<div class="product-item-thumb">
 											<div class="square-colored bg-product-violet"></div>
-											<img src="img/product-item2.jpg" alt="product">
+											<img src="{{ site.url | remove:page.title }}img/product-item2.jpg" alt="product">
 										</div>
 										<div class="product-item-content">
 											<h6 class="title">Investigationes lectores legere saepi</h6>
-											<a href="06_case_details_ver_02.html" class="more-arrow">
+											<a href="{{ site.url | remove:page.title }}06_case_details_ver_02.html" class="more-arrow">
 												<span>View Case</span>
 												<div class="btn-next">
 													<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
@@ -216,11 +217,11 @@ title: "index.html"
 									<div class="product-item">
 										<div class="product-item-thumb">
 											<div class="square-colored bg-product-red"></div>
-											<img src="img/product-item3.jpg" alt="product">
+											<img src="{{ site.url | remove:page.title }}img/product-item3.jpg" alt="product">
 										</div>
 										<div class="product-item-content">
 											<h6 class="title">Lorem ipsum dolor sit amet, consectetuer</h6>
-											<a href="07_case_details_ver_03.html" class="more-arrow">
+											<a href="{{ site.url | remove:page.title }}07_case_details_ver_03.html" class="more-arrow">
 												<span>View Case</span>
 												<div class="btn-next">
 													<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
@@ -239,11 +240,11 @@ title: "index.html"
 									<div class="product-item">
 										<div class="product-item-thumb">
 											<div class="square-colored bg-product-blue-dark"></div>
-											<img src="img/product-item4.jpg" alt="product">
+											<img src="{{ site.url | remove:page.title }}img/product-item4.jpg" alt="product">
 										</div>
 										<div class="product-item-content">
 											<h6 class="title">Nam liber tempor cum soluta nobis</h6>
-											<a href="05_case_details_ver_01.html" class="more-arrow">
+											<a href="{{ site.url | remove:page.title }}05_case_details_ver_01.html" class="more-arrow">
 												<span>View Case</span>
 												<div class="btn-next">
 													<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
@@ -265,7 +266,7 @@ title: "index.html"
 					<li class="menu-item-has-mega-menu menu-item-has-children">
 						<a href="#">Events</a>
 
-						<div class="megamenu" style="background-image: url('img/menu-bg.jpg');">
+						<div class="megamenu" style="background-image: url('{{ site.url | remove:page.title }}img/menu-bg.jpg');">
 							<div class="megamenu-row">
 
 								<div class="col4">
@@ -490,7 +491,7 @@ And We Will Take Care Of The Rest.
 							</div>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class="slider-thumb" data-swiper-parallax="-400" data-swiper-parallax-duration="600">
-									<img src="img/slides1.png" alt="slider">
+									<img src="{{ site.url | remove:page.title }}/img/slides1.png" alt="slider">
 								</div>
 							</div>
 
@@ -527,7 +528,7 @@ And We Will Take Care Of The Rest.
 										</a>
 
 										<a href="#" class="btn btn-market btn--with-shadow">
-											<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+											<img class="utouch-icon" src="{{ site.url | remove:page.title }}svg-icons/google-play.svg" alt="google">
 											<div class="text">
 												<span class="sup-title">Download on the</span>
 												<span class="title">Google Play</span>
@@ -571,7 +572,7 @@ And We Will Take Care Of The Rest.
 
 							<div class="col-lg-6 col-sm-12 table-cell">
 								<div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-									<img src="img/slides2.png" alt="slider">
+									<img src="{{ site.url | remove:page.title }}img/slides2.png" alt="slider">
 								</div>
 							</div>
 
@@ -614,8 +615,8 @@ And We Will Take Care Of The Rest.
 					<div class="crumina-module crumina-info-box info-box--standard-hover">
 
 						<div class="info-box-image">
-							<img class="utouch-icon" src="svg-icons/smartphone.svg" alt="smartphone">
-							<img class="cloud" src="img/clouds8.png" alt="cloud">
+							<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/smartphone.svg" alt="smartphone">
+							<img class="cloud" src="{{ site.url | remove:page.title }}/img/clouds8.png" alt="cloud">
 						</div>
 
 						<div class="info-box-content">
@@ -641,8 +642,8 @@ And We Will Take Care Of The Rest.
 					<div class="crumina-module crumina-info-box info-box--standard-hover">
 
 						<div class="info-box-image">
-							<img class="utouch-icon" src="svg-icons/music%20(1).svg" alt="smartphone">
-							<img class="cloud" src="img/clouds9.png" alt="cloud">
+							<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/music%20(1).svg" alt="smartphone">
+							<img class="cloud" src="{{ site.url | remove:page.title }}/img/clouds9.png" alt="cloud">
 						</div>
 
 						<div class="info-box-content">
@@ -668,8 +669,8 @@ And We Will Take Care Of The Rest.
 					<div class="crumina-module crumina-info-box info-box--standard-hover">
 
 						<div class="info-box-image">
-							<img class="utouch-icon" src="svg-icons/settings%20(4).svg" alt="smartphone">
-							<img class="cloud" src="img/clouds10.png" alt="cloud">
+							<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/settings%20(4).svg" alt="smartphone">
+							<img class="cloud" src="{{ site.url | remove:page.title }}/img/clouds10.png" alt="cloud">
 						</div>
 
 						<div class="info-box-content">
@@ -708,7 +709,7 @@ And We Will Take Care Of The Rest.
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="img/iphone.png" alt="iphone">
+									<img src="{{ site.url | remove:page.title }}/img/iphone.png" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -734,7 +735,7 @@ And We Will Take Care Of The Rest.
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/google-play.svg" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
@@ -750,7 +751,7 @@ And We Will Take Care Of The Rest.
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="img/iphone2.png" alt="iphone">
+									<img src="{{ site.url | remove:page.title }}/img/iphone2.png" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -776,7 +777,7 @@ And We Will Take Care Of The Rest.
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/google-play.svg" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
@@ -792,7 +793,7 @@ And We Will Take Care Of The Rest.
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="img/iphone3.png" alt="iphone">
+									<img src="{{ site.url | remove:page.title }}/img/iphone3.png" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -818,7 +819,7 @@ And We Will Take Care Of The Rest.
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/google-play.svg" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
@@ -879,9 +880,9 @@ And We Will Take Care Of The Rest.
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div class="crumina-module crumina-our-video">
 						<div class="video-thumb">
-							<img src="img/video-thumb.png" alt="video">
+							<img src="{{ site.url | remove:page.title }}/img/video-thumb.png" alt="video">
 							<a href="https://www.youtube.com/watch?v=wnJ6LuUFpMo" class="video-control js-popup-iframe">
-								<img src="img/play.png" alt="play">
+								<img src="{{ site.url | remove:page.title }}/img/play.png" alt="play">
 							</a>
 						</div>
 					</div>
@@ -901,48 +902,48 @@ And We Will Take Care Of The Rest.
 				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
 					<a class="clients-item" href="#">
 							<span class="clients-images">
-								<img src="img/client1.png" class="" alt="logo">
-								<img src="img/client1-1.png" class="hover" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client1.png" class="" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client1-1.png" class="hover" alt="logo">
 							</span>
 					</a>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
 					<a class="clients-item" href="#">
 							<span class="clients-images">
-								<img src="img/client2.png" class="" alt="logo">
-								<img src="img/client2-1.png" class="hover" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client2.png" class="" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client2-1.png" class="hover" alt="logo">
 							</span>
 					</a>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
 					<a class="clients-item" href="#">
 							<span class="clients-images">
-								<img src="img/client3.png" class="" alt="logo">
-								<img src="img/client3-1.png" class="hover" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client3.png" class="" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client3-1.png" class="hover" alt="logo">
 							</span>
 					</a>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
 					<a class="clients-item" href="#">
 							<span class="clients-images">
-								<img src="img/client4.png" class="" alt="logo">
-								<img src="img/client4-1.png" class="hover" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client4.png" class="" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client4-1.png" class="hover" alt="logo">
 							</span>
 					</a>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
 					<a class="clients-item" href="#">
 							<span class="clients-images">
-								<img src="img/client5.png" class="" alt="logo">
-								<img src="img/client5-1.png" class="hover" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client5.png" class="" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client5-1.png" class="hover" alt="logo">
 							</span>
 					</a>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
 					<a class="clients-item" href="#">
 							<span class="clients-images">
-								<img src="img/client6.png" class="" alt="logo">
-								<img src="img/client6-1.png" class="hover" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client6.png" class="" alt="logo">
+								<img src="{{ site.url | remove:page.title }}/img/client6-1.png" class="hover" alt="logo">
 							</span>
 					</a>
 				</div>
@@ -962,7 +963,7 @@ And We Will Take Care Of The Rest.
 					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-info-box info-box--standard-round icon-right negative-margin-right150">
 							<div class="info-box-image">
-								<img src="svg-icons/chat.svg" alt="chat" class="utouch-icon">
+								<img src="{{ site.url | remove:page.title }}/svg-icons/chat.svg" alt="chat" class="utouch-icon">
 							</div>
 							<div class="info-box-content">
 								<h5 class="info-box-title">Private Chat Integration</h5>
@@ -974,7 +975,7 @@ And We Will Take Care Of The Rest.
 
 						<div class="crumina-module crumina-info-box info-box--standard-round icon-right negative-margin-right150">
 							<div class="info-box-image">
-								<img src="svg-icons/pictures.svg" alt="chat" class="utouch-icon">
+								<img src="{{ site.url | remove:page.title }}/svg-icons/pictures.svg" alt="chat" class="utouch-icon">
 							</div>
 							<div class="info-box-content">
 								<h5 class="info-box-title">Perfect Grafic View</h5>
@@ -986,7 +987,7 @@ And We Will Take Care Of The Rest.
 					</div>
 
 					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 align-center">
-						<img class="particular-image" src="img/image.png" alt="image">
+						<img class="particular-image" src="{{ site.url | remove:page.title }}/img/image.png" alt="image">
 						<a href="03_products.html" class="btn btn--red btn--with-shadow">
 							Learn More
 						</a>
@@ -995,7 +996,7 @@ And We Will Take Care Of The Rest.
 					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-info-box info-box--standard-round negative-margin-left150">
 							<div class="info-box-image">
-								<img src="svg-icons/clock.svg" alt="chat" class="utouch-icon">
+								<img src="{{ site.url | remove:page.title }}/svg-icons/clock.svg" alt="chat" class="utouch-icon">
 							</div>
 							<div class="info-box-content">
 								<h5 class="info-box-title">Lifetime Updates</h5>
@@ -1007,7 +1008,7 @@ And We Will Take Care Of The Rest.
 
 						<div class="crumina-module crumina-info-box info-box--standard-round negative-margin-left150">
 							<div class="info-box-image">
-								<img src="svg-icons/calendar.svg" alt="chat" class="utouch-icon">
+								<img src="{{ site.url | remove:page.title }}/svg-icons/calendar.svg" alt="chat" class="utouch-icon">
 							</div>
 							<div class="info-box-content">
 								<h5 class="info-box-title">Calendar Sinhronize</h5>
@@ -1126,7 +1127,7 @@ And We Will Take Care Of The Rest.
 							<div class="swiper-slide">
 								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/dial.svg" alt="image">
+										<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/dial.svg" alt="image">
 									</div>
 								</div>
 
@@ -1170,7 +1171,7 @@ And We Will Take Care Of The Rest.
 							<div class="swiper-slide">
 								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/fingerprint.svg" alt="image">
+										<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/fingerprint.svg" alt="image">
 									</div>
 								</div>
 
@@ -1233,7 +1234,7 @@ And We Will Take Care Of The Rest.
 							<div class="swiper-slide">
 								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/devices.svg" alt="image">
+										<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/devices.svg" alt="image">
 									</div>
 								</div>
 
@@ -1276,7 +1277,7 @@ And We Will Take Care Of The Rest.
 							<div class="swiper-slide">
 								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/payment-method.svg" alt="image">
+										<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/payment-method.svg" alt="image">
 									</div>
 								</div>
 
@@ -1297,7 +1298,7 @@ And We Will Take Care Of The Rest.
 							<div class="swiper-slide">
 								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/chat1.svg" alt="image">
+										<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/chat1.svg" alt="image">
 									</div>
 								</div>
 
@@ -1316,7 +1317,7 @@ And We Will Take Care Of The Rest.
 											<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
 											<div class="play-with-title">
 												<a href="https://www.youtube.com/watch?v=wnJ6LuUFpMo" class="video-control js-popup-iframe">
-													<img src="img/play.png" alt="play">
+													<img src="{{ site.url | remove:page.title }}/img/play.png" alt="play">
 												</a>
 												<h6 class="play-title">Watch the video of instruction</h6>
 											</div>
@@ -1327,7 +1328,7 @@ And We Will Take Care Of The Rest.
 							<div class="swiper-slide">
 								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/tap.svg" alt="image">
+										<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/tap.svg" alt="image">
 									</div>
 								</div>
 
@@ -1452,13 +1453,13 @@ And We Will Take Care Of The Rest.
 					<div class="swiper-container pagination-bottom slider-tripple-right-image" data-show-items="1" data-effect="coverflow" data-centered-slider="false" data-stretch="170" data-depth="195">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<img src="img/img-slide1.png" alt="slide">
+								<img src="{{ site.url | remove:page.title }}/img/img-slide1.png" alt="slide">
 							</div>
 							<div class="swiper-slide">
-								<img src="img/img-slide1.png" alt="slide">
+								<img src="{{ site.url | remove:page.title }}/img/img-slide1.png" alt="slide">
 							</div>
 							<div class="swiper-slide">
-								<img src="img/img-slide1.png" alt="slide">
+								<img src="{{ site.url | remove:page.title }}/img/img-slide1.png" alt="slide">
 							</div>
 						</div>
 						<!-- If we need pagination -->
@@ -1598,7 +1599,7 @@ And We Will Take Care Of The Rest.
 							<div class="crumina-module crumina-testimonial-item testimonial-item-author-top swiper-slide">
 
 								<div class="testimonial-img-author" data-swiper-parallax="-100">
-									<img src="img/author2.png" alt="avatar">
+									<img src="{{ site.url | remove:page.title }}/img/author2.png" alt="avatar">
 								</div>
 
 								<h6 class="testimonial-text" data-swiper-parallax="-300">
@@ -1619,7 +1620,7 @@ And We Will Take Care Of The Rest.
 							<div class="crumina-module crumina-testimonial-item testimonial-item-author-top swiper-slide">
 
 								<div class="testimonial-img-author" data-swiper-parallax="-100">
-									<img src="img/author2.png" alt="avatar">
+									<img src="{{ site.url | remove:page.title }}/img/author2.png" alt="avatar">
 								</div>
 
 								<h6 class="testimonial-text" data-swiper-parallax="-300">
@@ -1640,7 +1641,7 @@ And We Will Take Care Of The Rest.
 							<div class="crumina-module crumina-testimonial-item testimonial-item-author-top swiper-slide">
 
 								<div class="testimonial-img-author" data-swiper-parallax="-100">
-									<img src="img/author2.png" alt="avatar">
+									<img src="{{ site.url | remove:page.title }}/img/author2.png" alt="avatar">
 								</div>
 
 								<h6 class="testimonial-text" data-swiper-parallax="-300">
@@ -1695,7 +1696,7 @@ And We Will Take Care Of The Rest.
 			<div class="row">
 				<div class="subscribe-form">
 					<div class="subscribe-main-content">
-						<img class="subscribe-img" src="img/subscribe-img.png" alt="image">
+						<img class="subscribe-img" src="{{ site.url | remove:page.title }}/img/subscribe-img.png" alt="image">
 
 						<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 							<div class="crumina-module crumina-heading">
@@ -1747,7 +1748,7 @@ And We Will Take Care Of The Rest.
 					</a>
 
 					<a href="#" class="btn btn-market btn--with-shadow">
-						<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+						<img class="utouch-icon" src="{{ site.url | remove:page.title }}/svg-icons/google-play.svg" alt="google">
 						<div class="text">
 							<span class="sup-title">Download on the</span>
 							<span class="title">Google Play</span>
@@ -2270,35 +2271,35 @@ And We Will Take Care Of The Rest.
 
 <!-- jQuery first, then Other JS. -->
 
-<script src="js/jquery-3.3.1.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/jquery-3.3.1.js"></script>
 
 <!-- jQuery-scripts for Template -->
 
 
-<script src="js/js-plugins/ajax-pagination.js"></script>
-<script src="js/js-plugins/jquery.countdown.min.js"></script>
-<script src="js/js-plugins/timer.js"></script>
-<script src="js/js-plugins/crum-mega-menu.js"></script>
-<script src="js/js-plugins/swiper.jquery.min.js"></script>
-<script src="js/js-plugins/jquery.typeahead.js"></script>
-<script src="js/js-plugins/velocity.min.js"></script>
-<script src="js/js-plugins/form-actions.js"></script>
-<script src="js/js-plugins/waypoints.js"></script>
-<script src="js/js-plugins/jquery-countTo.js"></script>
-<script src="js/js-plugins/jquery.nice-select.js"></script>
-<script src="js/js-plugins/imagesLoaded.js"></script>
-<script src="js/js-plugins/jquery.magnific-popup.js"></script>
-<script src="js/js-plugins/jquery.matchHeight.js"></script>
-<script src="js/js-plugins/Headroom.js"></script>
-<script src="js/js-plugins/smooth-scroll.js"></script>
-<script src="js/js-plugins/segment.js"></script>
-<script src="js/js-plugins/bootstrap.js"></script>
-<script src="js/js-plugins/moment.js"></script>
-<script src="js/js-plugins/moment-timezone.js"></script>
-<script src="js/js-plugins/isotope.pkgd.min.js"></script>
-<script src="js/js-plugins/ion.rangeSlider.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/ajax-pagination.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/jquery.countdown.min.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/timer.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/crum-mega-menu.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/swiper.jquery.min.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/jquery.typeahead.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/velocity.min.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/form-actions.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/waypoints.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/jquery-countTo.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/jquery.nice-select.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/imagesLoaded.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/jquery.magnific-popup.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/jquery.matchHeight.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/Headroom.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/smooth-scroll.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/segment.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/bootstrap.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/moment.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/moment-timezone.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/isotope.pkgd.min.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/js-plugins/ion.rangeSlider.js"></script>
 
-<script src="js/main.js"></script>
+<script src="{{ site.url | remove:page.title }}/js/main.js"></script>
 
 
 </body>
