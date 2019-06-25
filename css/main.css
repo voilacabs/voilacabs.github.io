@@ -1,0 +1,43 @@
+/* --- Brandon fonts --- */
+
+/* 
+
+Brandon_bld.otf --> Bold
+Brandon_blk.otf --> Black Bold
+Brandon_med.otf --> Medium
+Brandon_reg_it.otf --> Regular Italic
+Brandon_reg.otf --> Regular
+
+*/
+
+@font-face {
+    font-family: BrandonBold;
+    src: url(../fonts/Brandon/Brandon_bld.otf);
+}
+
+@font-face {
+    font-family: BrandonBlackBold;
+    src: url(../fonts/Brandon/Brandon_blk.otf);
+}
+
+@font-face {
+    font-family: BrandonMedium;
+    src: url(../fonts/Brandon/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: BrandonRegularItalic;
+    src: url(../fonts/Brandon/Brandon_reg_it.otf);
+}
+
+@font-face {
+    font-family: BrandonRegular;
+    src: url(../fonts/Brandon/Brandon_reg.otf);
+}
+
+.video-mask {
+    border-radius: 15px;
+    overflow: hidden;  
+    margin-bottom: 20px;
+    box-shadow: 3px 8px 10px 3px rgba(41,41,41,.4);
+}
