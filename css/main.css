@@ -35,6 +35,37 @@ Brandon_reg.otf --> Regular
     src: url(../fonts/Brandon/Brandon_reg.otf);
 }
 
+.blink {
+    animation: blink 0.5s infinite;
+}
+@keyframes blink{
+    to { opacity: .0; }
+}
+.flex {
+    display: inline-flex;
+}
+
+.logo-img {
+    height: auto;
+    width: 250px;  
+}
+
+.min-height {
+    height: 400px;
+}
+
+.btn-contact {
+    /* background-color: #2a76cc; */
+    background-color: #0083ff; 
+    font-weight: 500;
+}
+
+.main-margin {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .video-mask {
     border-radius: 15px;
     overflow: hidden;  

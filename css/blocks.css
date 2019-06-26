@@ -654,7 +654,8 @@ div:hover > .btn-reverse-bg-green {
     background-size: cover;
     background-repeat: no-repeat; }
   .main-slider .slider-content {
-    margin: 0 auto 65px; }
+    /* margin: 0 auto 65px;  */
+  }
     @media (max-width: 980px) {
       .main-slider .slider-content {
         padding: 20px 5px; } }
@@ -766,7 +767,7 @@ div:hover > .btn-reverse-bg-green {
   background-image: url("../img/clouds1.png"); }
 
 .bg-2 {
-  background-image: url("../img/clouds2.png"); }
+  background-image: url("../img/Untitled design.png"); }
 
 .bg-3 {
   background-image: url("../img/clouds3.png"); }
@@ -4854,7 +4855,9 @@ body.overlay-enable {
     border-radius: 2em;
     padding: 1.15em 1em;
     box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.7);
-    transition: color 0.3s ease, padding 0.3s ease-in-out, background 0.3s ease-in-out; }
+    transition: color 0.3s ease,
+ padding 0.3s ease-in-out,
+ background 0.3s ease-in-out; }
     .tgl span:before {
       position: relative;
       display: block;
