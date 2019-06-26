@@ -50,6 +50,20 @@ Brandon_reg.otf --> Regular
     width: 250px;  
 }
 
+.shadow-main {
+    filter: drop-shadow(3px 3px 70px #0083ff);
+}
+
+.video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
 .min-height {
     height: 400px;
 }
@@ -64,6 +78,10 @@ Brandon_reg.otf --> Regular
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+video::-webkit-media-controls {
+    display: none;
 }
 
 .deco {

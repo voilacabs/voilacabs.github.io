@@ -41,3 +41,30 @@ function deletingEffect() {
 };
 
 typingEffect();
+
+var vids = $("video"); 
+$.each(vids, function(){
+       this.controls = false; 
+}); 
+
+$("video").click(function() {
+	//console.log(this); 
+	if (this.paused) {
+		this.play();
+		document.getElementById('play').style.display = "none";
+	} else {
+		document.getElementById('play').style.display = "block";
+		this.pause();
+	}
+});
+
+function playVid() {
+	var mediaVideo = $("video").get(0);
+	if (mediaVideo.paused) {
+		mediaVideo.play();
+		document.getElementById('play').style.display = "none";
+	} else {
+		document.getElementById('play').style.display = "block";
+		mediaVideo.pause();
+	}
+}
