@@ -1253,7 +1253,9 @@ div:hover > .btn-reverse-bg-green {
       transform: scale(0.9);
       opacity: 1; }
       .slider-with-device .swiper-slide.swiper-slide-active .screenshot-item img {
-        box-shadow: 30px 0 30px rgba(0, 0, 0, 0.3); }
+        box-shadow: 30px 0 30px rgba(0, 0, 0, 0.3); 
+        border-radius: 15px;
+      }
 
 .slider--full-width-3items .swiper-slide {
   width: 1140px;

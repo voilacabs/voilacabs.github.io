@@ -61,9 +61,17 @@ Brandon_reg.otf --> Regular
 }
 
 .main-margin {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.deco {
+ height: 45px;
+}
+
+.font-custom {
+    font-weight: 500;
 }
 
 .video-mask {
