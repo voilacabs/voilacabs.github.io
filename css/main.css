@@ -50,8 +50,23 @@ Brandon_reg.otf --> Regular
     width: 250px;  
 }
 
+.padding-120 {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+.padding-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .shadow-main {
     filter: drop-shadow(3px 3px 70px #0083ff);
+    height: 90px;
+    width: auto;
 }
 
 .video-btn {
