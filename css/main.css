@@ -50,6 +50,11 @@ Brandon_reg.otf --> Regular
     width: 250px;  
 }
 
+.logo-img-footer {
+    height: auto;
+    width: 380px;
+}
+
 .padding-120 {
     padding-left: 120px;
     padding-right: 120px;
@@ -67,6 +72,11 @@ Brandon_reg.otf --> Regular
     filter: drop-shadow(3px 3px 70px #0083ff);
     height: 90px;
     width: auto;
+}
+
+.image-shadow {
+    box-shadow: 15px 0 20px rgba(0, 0, 0, 0.4) !important;
+    border-radius: 10px;
 }
 
 .video-btn {

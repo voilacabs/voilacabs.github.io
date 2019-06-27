@@ -1323,7 +1323,9 @@ div:hover > .btn-reverse-bg-green {
 
 /*------------- #INFO-BOX --------------*/
 .info-boxes .crumina-info-box {
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+  margin-top: 50px;
+}
 
 .crumina-info-box .info-box-content {
   overflow: hidden;
