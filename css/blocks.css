@@ -1242,7 +1242,8 @@ div:hover > .btn-reverse-bg-green {
   .slider-with-device .swiper-container {
     /* background: url("../img/smartphone2.png") 50% 0 no-repeat; */
     background-size: contain;
-    padding: 80px 0; }
+    /* padding: 80px 0;  */
+  }
   .slider-with-device .swiper-slide {
     opacity: .5;
     transition: all .3s ease;
