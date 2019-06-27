@@ -80,7 +80,9 @@ Brandon_reg.otf --> Regular
 }
 
 .min-height {
-    height: 400px;
+    height: 350px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .btn-contact {
