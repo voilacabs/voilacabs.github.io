@@ -68,3 +68,13 @@ function playVid() {
 		mediaVideo.pause();
 	}
 }
+
+function left(){
+	var nyedva = document.getElementById('nav');
+	nyedva.scrollLeft += 100;
+}
+
+function right(){
+	var nyedva = document.getElementById('nav');
+	nyedva.scrollLeft -= 100;
+}
