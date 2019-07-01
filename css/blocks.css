@@ -2311,8 +2311,9 @@ div:hover > .btn-reverse-bg-green {
 .crumina-teammembers-item .teammembers-thumb {
   width: 260px;
   height: 260px;
-  background-color: #edf6fc;
-  border-radius: 100%;
+  background-color: #FFFFFF;
+  /* background-color: #edf6fc; */
+  /* border-radius: 100%; */
   text-align: center;
   float: left;
   margin-right: 40px;
