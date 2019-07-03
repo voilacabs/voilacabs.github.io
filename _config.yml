@@ -29,8 +29,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
-main-url: "http://beta.voilacabs.com/" 
-blog: "http://blog.voilacabs.com/"
+main-url: "https://beta.voilacabs.com/" 
+blog: "https://blog.voilacabs.com/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
