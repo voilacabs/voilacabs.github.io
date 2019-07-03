@@ -3849,7 +3849,6 @@ ol.comments {
     height: 20px;
     margin-right: 30px; }
   .curriculum-list li {
-    display: flex;
     justify-content: space-between;
     padding: 30px 60px;
     position: relative;

@@ -68,8 +68,8 @@ title: "Post Detail"
 
 					    {% if page.thumbnail %}
 							<div class="post-thumb">
-								<img src="{{ site.url }}/{{ page.thumbnail }}">
-								<a href="{{ site.url }}/{{ page.thumbnail }}" class="link-image js-zoom-image">
+								<img src="{{ site.main-url }}/{{ page.thumbnail }}">
+								<a href="{{ site.main-url }}/{{ page.thumbnail }}" class="link-image js-zoom-image">
 									<svg class="utouch-icon utouch-icon-zoom-increasing-button-outline"><use xlink:href="#utouch-icon-zoom-increasing-button-outline"></use></svg>
 								</a>
 								<a href="#" class="link-post">
@@ -81,10 +81,10 @@ title: "Post Detail"
 
 						{% if page.type == "video" %}
 							<div class="post-thumb">
-								<img src="{{ site.url }}/{{ page.vidthumbnail }}" alt="video">
+								<img src="{{ site.main-url }}/{{ page.vidthumbnail }}" alt="video">
 								<div class="overlay"></div>
 								<a href="{{ page.videourl }}" class="video-control js-popup-iframe">
-									<img src="{{ site.url }}/img/play.png" alt="play">
+									<img src="{{ site.main-url }}/img/play.png" alt="play">
 								</a>
 							</div>
 						{% endif %}
@@ -439,7 +439,7 @@ title: "Post Detail"
 	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 	
 	var disqus_config = function () {
-	this.page.url = "{{ site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.url = "{{ site.main-url }}";  // Replace PAGE_URL with your page's canonical URL variable
 	this.page.identifier = voilacabs; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 	

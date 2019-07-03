@@ -1,0 +1,45 @@
+<section class="align-center medium-padding100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+					<div class="crumina-module crumina-heading">
+						<h6 class="heading-sup-title">Careers</h6>
+						<h3 class="heading-title">Join an amazing team to change an entire industry.</h3>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+					<ul class="cat-list-bg-style sorting-menu">
+						<li class="cat-list__item active" data-filter="*"><a href="#" class="">All</a></li>
+						<li class="cat-list__item" data-filter=".dev"><a href="#" class="">Development</a></li>
+						<li class="cat-list__item" data-filter=".marketing"><a href="#" class="">Marketing</a></li>
+						<li class="cat-list__item" data-filter=".sales"><a href="#" class="">Sales</a></li>
+                        <li class="cat-list__item" data-filter=".hr"><a href="#" class="">HR</a></li>
+						<li class="cat-list__item" data-filter=".support"><a href="#" class="">Support</a></li>
+						<li class="cat-list__item" data-filter=".operations"><a href="#" class="">Operations</a></li>
+					</ul>
+
+					<div class="row sorting-container" id="clients-grid" data-layout="masonry">
+                        
+                        {% include careerlist-dev.html %}
+                        
+                        {% include careerlist-marketing.html %}
+                        
+						{% include careerlist-sales.html %}
+                        
+						{% include careerlist-hr.html %}
+                        
+						{% include careerlist-support.html %}
+                        
+                        {% include careerlist-operations.html %}
+                        
+                        
+					</div>
+
+					<a href="#" class="btn btn--large btn-border btn--with-shadow btn-more btn--grey-light" id="load-more-button" data-load-link="clients-to-load.html" data-container="clients-grid">Apply Now</a>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
