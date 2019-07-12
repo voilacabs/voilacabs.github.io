@@ -3622,7 +3622,7 @@ ol.comments {
     text-transform: none; }
     .tabs-with-line .tab-control a:after {
       background-color: #6987ab;
-      opacity: 1;
+      /* opacity: 1; */
       width: 40%;
       height: 4px; }
   .tabs-with-line .tab-control.active a::after {

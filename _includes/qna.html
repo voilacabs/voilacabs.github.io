@@ -1,0 +1,47 @@
+<section class="medium-padding120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
+                <div class="crumina-module crumina-heading align-center">
+                    <h2 class="heading-title align-center">FAQs for Lyft/Uber Taxi App Development</h2>
+                    <h6 class="heading-sup-title">Most of our clients worldwide have asked us these questions before hiring our Uber developers to develop their own taxi booking solution.</h6>
+                </div>
+
+                <!-- Content -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <button class="accordionQNA">Q1) Should I develop taxi booking app if there are only 10 to 15 registered drivers?</button>
+                    <div class="panelQNA" style="padding-top: 15px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordionQNA">Q2) Should I develop taxi booking app if there are only 10 to 15 registered drivers?</button>
+                    <div class="panelQNA" style="padding-top: 15px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordionQNA">Q3) Should I develop taxi booking app if there are only 10 to 15 registered drivers?</button>
+                    <div class="panelQNA" style="padding-top: 15px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordionQNA");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("activeQNA");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+            });
+        }
+    </script>
+
+</section>
