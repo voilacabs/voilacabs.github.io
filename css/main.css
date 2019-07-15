@@ -79,11 +79,25 @@ Brandon_reg.otf --> Regular
   box-shadow: 20px 0 60px 0 rgba(0, 0, 0, 0.1);
 }
 
-
-.shadow-main {
+@media (min-width: 800px){
+  .shadow-main {
     filter: drop-shadow(3px 3px 70px #0083ff);
     height: auto;
-    width: auto;
+    width: 100px !important;
+  }
+}
+
+@media (max-width: 799px){
+  .shadow-main {
+    filter: drop-shadow(3px 3px 70px #0083ff);
+    height: auto;
+    width: 50px !important;
+  }
+}
+
+.size-cust{
+  height: 110px !important;
+  width: auto !important;
 }
 
 .image-shadow {
@@ -101,10 +115,19 @@ Brandon_reg.otf --> Regular
     z-index: 10;
 }
 
-.min-height {
-    height: 350px;
+@media (min-width: 1220px){
+  .min-height {
+      height: 350px;
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+}
+
+@media (max-width: 1199px){
+  .min-height {
     padding-left: 35px;
     padding-right: 35px;
+  }
 }
 
 .btn-contact {
@@ -478,6 +501,12 @@ video::-webkit-media-controls {
 
 .mg-bottom-30{
   margin-bottom: 30px;
+}
+
+@media (max-width: 799px){
+  .slider-img-main{
+    display: none;
+  }
 }
 
 /* QNA */
