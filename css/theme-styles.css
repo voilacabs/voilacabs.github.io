@@ -5038,11 +5038,11 @@
   
   @media (max-width: 390px) {
     .header .header-content-wrapper {
-      display: block;
+      /* display: block;s */
       float: left; }
     .header .site-logo {
       margin-right: 0;
-      margin-bottom: 30px;
+      /* margin-bottom: 30px; */
       display: flex;
       align-items: center;
       justify-content: center; }
