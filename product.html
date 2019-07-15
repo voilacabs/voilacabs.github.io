@@ -1,5 +1,5 @@
 ---
-title: "Product"
+title: "Voila Cabs"
 description: "Taxi Dispatch Cloud Software with Manual and Automatic Options - Ready to Launch"
 keywords: "Voilacabs, taxi dispatch, online taxi,clone scripts, clone website, mobile apps, mobile app clone, websites clone, website scripts, app scripts"
 thumb: "img/voilathumb.png"
@@ -7,27 +7,36 @@ thumb: "img/voilathumb.png"
 
 <!DOCTYPE html>
 <html lang="en">
+    
+    {% include head.html %}
 
-{% include head.html %}
+    <body class="crumina-grid">
 
-<body class="crumina-grid">
+        {% include loader.html %}
+        
+        {% include header.html %}
 
-    {% include loader.html %}
+        <div class="content-wrapper">
 
-    {% include header.html %}
+            {% include hero2.html %}
 
-    <div class="content-wrapper">
+            {% include userdriver.html %}
 
-        {% include products.html %}
+            {% include test.html %}
 
-    </div>
+            {% include voilax.html %}
 
-    {% include footer.html %}
+            {% include technologyused.html %}
 
-    {% include svgIcons.html %}
+            {% include qna.html %}
 
-    {% include scripts.html %}
+        </div>
+        
+        {% include footer.html %}
 
-</body>
+        {% include svgIcons.html %}
 
+        {% include scripts.html %}
+
+    </body>
 </html>

@@ -78,3 +78,10 @@ function right(){
 	var nyedva = document.getElementById('nav');
 	nyedva.scrollLeft -= 100;
 }
+
+var tabdriver = document.getElementById("driver-layout");
+tabdriver.style.height = "0px";
+
+function tabFunction(){
+	tabdriver.style.height = "auto";
+}

@@ -2600,7 +2600,13 @@ div:hover > .btn-reverse-bg-green {
   transition: opacity .15s linear; }
 
 .fade.in {
-  opacity: 1; }
+  opacity: 1; 
+}
+
+.fade.out {
+  opacity: 0;
+  display: none; 
+}
 
 .collapse {
   display: none; }
@@ -3676,7 +3682,7 @@ ol.comments {
 
 @media (max-width: 460px) {
   .tabs-with-line .tab-control {
-    display: block;
+    display: inline-block;
     margin-bottom: 15px; }
   .tabs-with-line .tab-control + .tab-control {
     margin-left: 0; } }
