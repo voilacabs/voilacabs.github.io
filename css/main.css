@@ -432,9 +432,9 @@ video::-webkit-media-controls {
     height: 3px;
     top: auto;
     bottom: 103px;
-    left: 34%;
-    right: 60%;
-    width: 50%;
+    left: 15%;
+    right: 0%;
+    width: 100%;
     margin-bottom: 5px;
 }
 .timeline-horizontal .timeline-item {
