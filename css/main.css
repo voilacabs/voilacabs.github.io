@@ -60,6 +60,10 @@ Brandon_reg.otf --> Regular
   padding-right: 50px;
 }
 
+.radius-25{
+  border-radius: 25px
+}
+
 .h-600{
   height: 600px;
 }
