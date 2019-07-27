@@ -64,6 +64,11 @@ Brandon_reg.otf --> Regular
   border-radius: 25px
 }
 
+.flex-career{
+  display: flex;
+  text-align: start;
+}
+
 .h-600{
   height: 600px;
 }
